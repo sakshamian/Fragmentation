@@ -1,0 +1,2 @@
+# Code-fragmenting
+I have splitted the code into components. The idea behind doing so is that all the api calls and logic must be separate from children. I have called the apis in parent component which is App.tsx and passed the data into children as props. The children have local states and global data is provided through selectors.
